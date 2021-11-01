@@ -185,13 +185,6 @@ public class rps extends Application {
 				dgpane.setStyle("-fx-background-color:coral;");
 				a.show();
 				
-				/*pane.setStyle("-fx-background-color:RED;");
-				
-				Optional<ButtonType> result = a.showAndWait();
-				ButtonType button=result.orElse(ButtonType.CANCEL);
-				if(button==ButtonType.OK) {
-					pane.setStyle("-fx-background-color:LIGHTGREEN;");
-				}*/
 			}
 			else if(b1.isSelected() && b5.isSelected()) {
 				lb.setText("Congratulation "+ txt2.getText()+"  !!You Won!!");
@@ -199,12 +192,6 @@ public class rps extends Application {
 				Media audio=new Media(audiofile.toURI().toString());
 				MediaPlayer audioplayer=new MediaPlayer(audio);
 				audioplayer.setAutoPlay(true);
-				
-				/*Alert a1 = new Alert(AlertType.NONE,"Congradulation "+ txt2.getText()+"!!You Won!!",ButtonType.OK);
-				a1.setTitle("Result");
-				DialogPane dgpane=a1.getDialogPane();
-				dgpane.setStyle("-fx-background-color:greenyellow;");
-				a1.show();*/
 			
 			}
 			else if(b1.isSelected() && b6.isSelected())
@@ -215,12 +202,6 @@ public class rps extends Application {
 				MediaPlayer audioplayer=new MediaPlayer(audio);
 				audioplayer.setAutoPlay(true);
 				
-				/*Alert a2 = new Alert(AlertType.NONE,"Congradulation "+ txt1.getText()+"!!You Won!!",ButtonType.OK);
-				a2.setTitle("Result");
-				DialogPane dgpane=a2.getDialogPane();
-				dgpane.setStyle("-fx-background-color:greenyellow;");
-				a2.show(); */
-				
 			}
 			else if(b2.isSelected() && b4.isSelected())
 			{
@@ -229,12 +210,6 @@ public class rps extends Application {
 				Media audio=new Media(audiofile.toURI().toString());
 				MediaPlayer audioplayer=new MediaPlayer(audio);
 				audioplayer.setAutoPlay(true);
-				
-				/*Alert a3 = new Alert(AlertType.NONE,"Congradulation "+ txt1.getText()+"!!You Won!!",ButtonType.OK);
-				a3.setTitle("Result");
-				DialogPane dgpane=a3.getDialogPane();
-				dgpane.setStyle("-fx-background-color:greenyellow;");
-				a3.show(); */
 				
 			}
 			
@@ -245,13 +220,6 @@ public class rps extends Application {
 				Media audio=new Media(audiofile.toURI().toString());
 				MediaPlayer audioplayer=new MediaPlayer(audio);
 				audioplayer.setAutoPlay(true);
-				
-				/*Alert a4 = new Alert(AlertType.NONE,"Congradulation "+ txt2.getText()+"!!You Won!!",ButtonType.OK);
-				a4.setTitle("Result");
-				DialogPane dgpane=a4.getDialogPane();
-				dgpane.setStyle("-fx-background-color:greenyellow;");
-				a4.show(); */
-				
 			}
 			else if(b3.isSelected() && b4.isSelected())
 			{
@@ -260,13 +228,6 @@ public class rps extends Application {
 				Media audio=new Media(audiofile.toURI().toString());
 				MediaPlayer audioplayer=new MediaPlayer(audio);
 				audioplayer.setAutoPlay(true);
-				
-				/*Alert a5 = new Alert(AlertType.NONE,"Congradulation "+ txt2.getText()+"!!You Won!!",ButtonType.OK);
-				a5.setTitle("Result");
-				DialogPane dgpane=a5.getDialogPane();
-				dgpane.setStyle("-fx-background-color:greenyellow;");
-				a5.show();*/
-				
 			}
 			else if(b3.isSelected() && b5.isSelected())
 			{
@@ -276,11 +237,6 @@ public class rps extends Application {
 				MediaPlayer audioplayer=new MediaPlayer(audio);
 				audioplayer.setAutoPlay(true);
 				
-				/*Alert a6 = new Alert(AlertType.NONE,"Congradulation "+ txt1.getText()+"!!You Won!!",ButtonType.OK);
-				a6.setTitle("Result");
-				DialogPane dgpane=a6.getDialogPane();
-				dgpane.setStyle("-fx-background-color:greenyellow;");
-				a6.show(); */
 			}
 			
 		}
